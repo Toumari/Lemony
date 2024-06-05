@@ -1,6 +1,6 @@
 <template>
     <header class="header container" :class="{ hidden: !isMobile }" role="banner">
-        <img class="logo__img" src="/images/logo3.png" alt="Company Logo" role="img">
+        <p class="logo">Lemony</p>
         <ul class="header__menu" role="menu">
             <li><a :href="'#about'" @click.prevent="scrollToAbout" role="menuitem">About</a></li>
             <li><a :href="'#services'" @click.prevent="scrollToServices" role="menuitem">Services</a></li>
@@ -95,13 +95,11 @@ watch(isMobile, (newVal) => {
 }
 
 .logo {
-    font-size: 1.25rem;
-    font-weight: 700;
+    font-size: 1.5rem;
+    font-weight: bolder;
     color: var(--clr-dark);
-    background-color: rgba(227, 226, 226, 0.45);
-    padding: 0.1rem 0.5rem;
+
     z-index: 999;
-    border-radius: 8px;
 }
 
 .header__menu {
