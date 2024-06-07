@@ -57,7 +57,7 @@ onMounted(() => {
         scrollY.value = window.scrollY
     })
 
-    titleY.value = document.querySelector('.services__title').offsetTop
+    titleY.value = document.querySelector('.services__title');
 })
 
 watch(scrollY, (newVal) => {
