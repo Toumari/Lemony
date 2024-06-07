@@ -46,7 +46,7 @@ const scrollToAbout = () => {
 
 const scrollToServices = () => {
     // Smooth scrolling behavior (optional):
-    document.querySelector('.services__title').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    document.querySelector('.services').scrollIntoView({ behavior: 'smooth', block: 'center' });
     isMenuOpen.value = false
     isMobile.value = false
 }
