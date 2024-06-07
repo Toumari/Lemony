@@ -103,7 +103,7 @@ section {
 
 .hero {
     text-align: center;
-    min-height: calc(10rem + 50vh);
+    min-height: calc(10rem + 55vh);
     display: flex;
     flex-direction: column;
     justify-content: center;
