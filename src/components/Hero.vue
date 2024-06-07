@@ -3,7 +3,7 @@
         <span class="title__lemon" ref="titleLemon">🍋</span>
         <section class="hero container" role="region" aria-label="Hero Section" ref="hero">
             <h1 class="hero__title">
-                We build the website you deserve.
+                We build the website your brand deserves.
             </h1>
             <p ref="myElement" class="hero__description">
                 Bring your brand into the modern world, with a website that is as unique as you are.
@@ -103,7 +103,7 @@ section {
 
 .hero {
     text-align: center;
-    min-height: calc(10rem + 55vh);
+    min-height: calc(10rem + 35vh);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -144,7 +144,7 @@ section {
 .hero__description {
     font-size: var(--fs-base);
     font-weight: 400;
-    margin-top: var(--size-xl);
+    margin-top: var(--size-2xl);
     margin-bottom: var(--size-2xl);
     max-width: 30ch;
     color: #333;
@@ -197,6 +197,11 @@ section {
 
 /* md */
 @media (min-width: 768px) {
+
+    .hero__title {
+        font-size: calc(3.5rem + 2.5vw);
+    }
+
     /* .hero__title {
         font-size: var(--fs-5xl);
         letter-spacing: -2.2px;
@@ -251,9 +256,9 @@ section {
 
     .hero__description {
         font-size: var(--fs-xl);
-        margin-top: var(--size-xxs);
+        margin-top: var(--size-xl);
         margin-bottom: var(--size-3xl);
-        max-width: 40ch;
+        max-width: 45ch;
     }
 
     .hero__btn {
