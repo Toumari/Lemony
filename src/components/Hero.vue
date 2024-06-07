@@ -81,7 +81,7 @@ onMounted(() => {
 
 const scrollToKeyFeatures = () => {
     // Smooth scrolling behavior (optional):
-    document.querySelector('#keyfeatures').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    document.querySelector('#keyfeatures').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 
 </script>
@@ -246,7 +246,7 @@ section {
 /* xxl */
 @media (min-width: 1536px) {
     .hero__title {
-        line-height: 1.3;
+        line-height: 1;
     }
 
     .hero__description {
