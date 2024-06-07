@@ -138,11 +138,11 @@ section {
     color: #333333;
     z-index: 1;
     /* font-family: 'Playfair Display', serif; */
-    font-size: calc(3.5rem + 0.75vw);
+    font-size: calc(3rem + 0.1vw);
 }
 
 .hero__description {
-    font-size: var(--fs-base);
+    font-size: calc(1.2rem + 0.1vw);
     font-weight: 400;
     margin-top: var(--size-2xl);
     margin-bottom: var(--size-2xl);
@@ -153,10 +153,12 @@ section {
 
 .hero__btn {
     background-color: rgb(255, 217, 19);
-    padding: 0.5rem 1.1rem;
+    padding: 0.7rem 2rem;
     border-radius: 8px;
     color: #333;
-    font-size: var(--fs-sm);
+    font-weight: 700;
+    margin-top: 0.75rem;
+    font-size: calc(1rem + 0.1vw);
     margin-inline: auto;
     transition: all 0.3s ease;
 }
@@ -175,12 +177,12 @@ section {
     } */
 
     .hero__description {
-        font-size: var(--fs-md);
+        /* font-size: var(--fs-md); */
         max-width: 32ch;
     }
 
     .hero__btn {
-        font-size: var(--fs-xs);
+        /* font-size: var(--fs-xs); */
     }
 }
 
@@ -208,11 +210,12 @@ section {
     } */
 
     .hero__description {
-        font-size: var(--fs-lg);
+        /* font-size: var(--fs-lg); */
+        font-size: calc(1.4rem + 0.1vw);
     }
 
     .hero__btn {
-        font-size: var(--fs-xs);
+        /* font-size: var(--fs-xs); */
     }
 
     .lemon__background {
@@ -244,7 +247,7 @@ section {
     } */
 
     .hero__description {
-        font-size: var(--fs-xl);
+        /* font-size: var(--fs-xl); */
     }
 }
 
@@ -255,14 +258,14 @@ section {
     }
 
     .hero__description {
-        font-size: var(--fs-xl);
+        /* font-size: var(--fs-xl); */
         margin-top: var(--size-xl);
         margin-bottom: var(--size-3xl);
-        max-width: 45ch;
+        max-width: 28ch;
     }
 
     .hero__btn {
-        font-size: var(--fs-md);
+        /* font-size: var(--fs-md); */
     }
 }
 </style>

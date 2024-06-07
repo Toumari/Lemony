@@ -81,7 +81,7 @@ body {
   color: var(--clr-dark);
   background-color: #bcbcbc;
   color: #292616;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Satoshi', sans-serif; */
 }
 
 img,
@@ -123,11 +123,11 @@ section{
 }
 
 p,a,li {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'satoshi', sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Work Sans', serif;
+  font-family: 'satoshi', serif;
 }
 
 /* xs */
