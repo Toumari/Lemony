@@ -3,12 +3,12 @@
         <span class="title__lemon" ref="titleLemon">🍋</span>
         <section class="hero container" role="region" aria-label="Hero Section" ref="hero">
             <h1 class="hero__title">
-                When life gives you <span class="lemons">lemons</span> make a zesty website with them.
+                We build the website you deserve.
             </h1>
             <p ref="myElement" class="hero__description">
-                Nurture your online presence. I design websites that thrive in the modern world.
+                Bring your brand into the modern world, with a website that is as unique as you are.
             </p>
-            <a ref="moreBtn" @click=scrollToAbout class="hero__btn btn" role="button">Learn More</a>
+            <a ref="moreBtn" @click=scrollToKeyFeatures class="hero__btn btn" role="button">Learn More</a>
         </section>
     </div>
 </template>
@@ -79,9 +79,9 @@ onMounted(() => {
 
 })
 
-const scrollToAbout = () => {
+const scrollToKeyFeatures = () => {
     // Smooth scrolling behavior (optional):
-    document.querySelector('#about').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    document.querySelector('#keyfeatures').scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 
 </script>
@@ -103,7 +103,7 @@ section {
 
 .hero {
     text-align: center;
-    min-height: calc(70vh - 4rem);
+    min-height: calc(10rem + 50vh);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -117,9 +117,10 @@ section {
     position: absolute;
     font-size: 7.5rem;
     transform: rotate(10deg);
-    top: 36%;
     left: 0rem;
-    opacity: 0.9;
+    opacity: 0.4;
+    top: 36%;
+
 }
 
 .lemons {
@@ -136,13 +137,14 @@ section {
     margin-inline: auto;
     color: #333333;
     z-index: 1;
-    font-size: var(--fs-4xl);
+    /* font-family: 'Playfair Display', serif; */
+    font-size: calc(3.5rem + 0.75vw);
 }
 
 .hero__description {
     font-size: var(--fs-base);
     font-weight: 400;
-    margin-top: var(--size-xxs);
+    margin-top: var(--size-xl);
     margin-bottom: var(--size-2xl);
     max-width: 30ch;
     color: #333;
@@ -168,9 +170,9 @@ section {
 
 /* xs */
 @media (min-width: 475px) {
-    .hero__title {
+    /* .hero__title {
         font-size: var(--fs-4xl);
-    }
+    } */
 
     .hero__description {
         font-size: var(--fs-md);
@@ -184,9 +186,9 @@ section {
 
 /* sm */
 @media (min-width: 640px) {
-    .hero__title {
+    /* .hero__title {
         font-size: var(--fs-5xl);
-    }
+    } */
 
     .hero__description {
         max-width: 35ch;
@@ -195,10 +197,10 @@ section {
 
 /* md */
 @media (min-width: 768px) {
-    .hero__title {
+    /* .hero__title {
         font-size: var(--fs-5xl);
         letter-spacing: -2.2px;
-    }
+    } */
 
     .hero__description {
         font-size: var(--fs-lg);
@@ -221,9 +223,9 @@ section {
         margin-top: 5rem;
     }
 
-    .hero__title {
+    /* .hero__title {
         font-size: var(--fs-6xl);
-    }
+    } */
 
     .title__lemon {
         animation: floatAcrossScreen 50s infinite ease-in-out alternate;
@@ -232,9 +234,9 @@ section {
 
 /* xl */
 @media (min-width: 1280px) {
-    .hero__title {
+    /* .hero__title {
         font-size: var(--fs-7xl);
-    }
+    } */
 
     .hero__description {
         font-size: var(--fs-xl);

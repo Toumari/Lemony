@@ -57,16 +57,8 @@
   }
   
   .title {
-    text-align: center;
-    padding: .05rem 1rem;
-    margin-inline: auto;
+    font-size: calc(1.5rem + 0.25vw);
     margin-bottom: 1rem;
-    width: fit-content;
-    text-transform: uppercase;
-    background-color: #333;
-    color: #fff;
-    border-radius: 1000px;
-    font-size: var(--fs-sm);
   }
   
   

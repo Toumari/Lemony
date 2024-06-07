@@ -1,13 +1,10 @@
 <template>
     <div class="services__wrapper" id="services" role="region" aria-label="Services Section">
         <section class="services container" ref="services">
-            <h2 class="services__title" :class="{ 'service__title__scale': titleY }">What I offer</h2>
+            <h2 class="title" :class="{ 'service__title__scale': titleY }">What We offer</h2>
             <div class="cards" role="list">
                 <div class="card__yellow card" role="listitem">
                     <h2 class="card__title">Web Design.</h2>
-                    <h2 class="finance__info">Starting at:</h2>
-                    <h2 class="finance__price">£500.00</h2>
-
                     <p class="card__description__grey">
                         Get a professional website designed to your needs.
                     </p>
@@ -26,9 +23,6 @@
                 </div>
                 <div class="card__dark card" role="listitem">
                     <h2 class="card__title">Logo Design.</h2>
-                    <h2 class="finance__info">Starting at:</h2>
-                    <h2 class="finance__price">£100.00</h2>
-
                     <p class="card__description__grey">
                         Build your brand identity with a professional logo.
                     </p>
@@ -108,9 +102,13 @@ onMounted(() => {
 .card {
     padding: 2.5rem;
     border-radius: 8px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
+}
+
+.card:last-of-type {
+    margin-bottom: 0;
 }
 
 .card:hover {
@@ -131,6 +129,7 @@ onMounted(() => {
 .card__title {
     font-size: var(--fs-2xl);
     line-height: 1.2;
+    margin-bottom: 0.25rem
 }
 
 .card__small-text {
@@ -149,6 +148,7 @@ onMounted(() => {
 
 .card__description__grey {
     line-height: 1rem;
+    margin-top: 1rem;
     font-size: var(--fs-sm);
 
 }

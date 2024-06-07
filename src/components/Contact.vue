@@ -1,6 +1,6 @@
 <template>
     <section class="section container contact" id="contact" aria-labelledby="contact-title">
-        <h2 id="contact-title" class="contact__title">Contact Me</h2>
+        <h2 id="contact-title" class="title">Contact Me</h2>
         <p class="contact__description">Get in touch with me via email and I'll reply as fast as I can to your enquiry!
         </p>
         <form action="https://api.web3forms.com/submit" method="POST" aria-label="Contact Form">
@@ -34,16 +34,7 @@
     text-align: center;
 }
 
-.contact__title {
-    display: block;
-    width: fit-content;
-    margin-inline: auto;
-    font-weight: 700;
-    transition: all 0.3s ease;
-    margin-bottom: .5rem;
-    font-size: var(--fs-xl);
-    text-align: center;
-}
+
 
 .contact__description {
     font-size: calc(var(--fs-base) * 0.95);

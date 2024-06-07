@@ -1,6 +1,6 @@
 <template>
     <section class="about container section" id="about" role="region" aria-label="About Me Section" ref="about">
-        <h2 class="about__title">About Me</h2>
+        <h2 class="title">About Me</h2>
         <div class="about__content__wrapper">
             <img class="about__img hidden" src="/images/me.jpg" alt="A photo of Jack">
             <div class="about__content__text__wrapper">
@@ -159,7 +159,7 @@ onMounted(() => {
     line-height: 1.6;
     color: #333;
     letter-spacing: 0.2px;
-    margin-bottom: 1.5rem;
+
     opacity: 0;
 }
 

@@ -1,6 +1,6 @@
 <template>
     <section class="container portfolio" ref="portfolio">
-        <h2 class="portfolio__title">My Portfolio</h2>
+        <h2 class="title">Websites We've Built</h2>
         <div class="card__container">
 
 
@@ -88,7 +88,7 @@ onMounted(() => {
 
 .card {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
+    border-radius: 5px;
     transition: all 0.3s ease;
     overflow: hidden;
     margin-bottom: 2rem;
@@ -164,9 +164,7 @@ onMounted(() => {
         grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     }
 
-    .portfolio__title {
-        font-size: var(--fs-2xl);
-    }
+
 
 
     .card__title {
