@@ -37,7 +37,7 @@ import Footer from '@/components/Footer.vue'
 <style scoped>
 .top-section {
 
-  background-color: #FFFAFF;
+  background-color: #fdfbf9;
   padding: 0rem 0;
 }
 

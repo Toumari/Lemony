@@ -79,7 +79,7 @@ html {
 body {
   min-height: 100vh;
   color: var(--clr-dark);
-  background-color: #bcbcbc;
+  background-color: ghostwhite;
   color: #292616;
   /* font-family: 'Satoshi', sans-serif; */
 }

@@ -138,7 +138,7 @@ onMounted(() => {
 
 .card__text__content {
     padding: 1.5rem;
-    background-color: #fff;
+    background-color: #fdfbf9;
 }
 
 /* xs */

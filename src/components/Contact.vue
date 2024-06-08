@@ -38,14 +38,14 @@
 
 .contact__description {
     font-size: calc(var(--fs-base) * 0.95);
-    font-weight: 300;
+    font-weight: 500;
     line-height: 1.6;
-    max-width: 40ch;
+    max-width: 25ch;
     margin-inline: auto;
 
     color: #333;
     letter-spacing: 0.2px;
-    margin-bottom: 1.5rem
+    margin-bottom: 2rem
 }
 
 .contact__name {
@@ -87,7 +87,6 @@
 
 textarea {
     resize: none;
-
 }
 
 form {

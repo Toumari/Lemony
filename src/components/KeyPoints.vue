@@ -28,8 +28,7 @@
                     </g>
                 </svg>
                 <h4>Tailored Designs</h4>
-                <p>We offer total flexibility when it comes to your creative dream. We'll work with you to make your
-                    dream site a reality</p>
+                <p>We work closely with customers to ensure that your dream website is a reality.</p>
             </article>
             <article class="key__article">
                 <svg fill="#ffffff" height="75px" width="75px" version="1.1" id="Capa_1"
@@ -44,7 +43,7 @@
                     </g>
                 </svg>
                 <h4>SEO Champions</h4>
-                <p>We'll make sure your website stands out amongst the competition with engaging SEO optimisation.</p>
+                <p>We'll make sure your website stands out amongst the competition with SEO optimisation.</p>
             </article>
             <article class="key__article">
                 <svg fill="#ffffff" height="75px" width="75px" version="1.1" id="Capa_1"
@@ -64,7 +63,7 @@
                     </g>
                 </svg>
                 <h4>Continual Support</h4>
-                <p>We'll host and maintain your website, ensuring smooth sailing for customers and users</p>
+                <p>We provide free hosting, SSL protection and ongoing maintenance for customers.</p>
             </article>
         </div>
     </section>

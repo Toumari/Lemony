@@ -135,7 +135,7 @@ section {
     letter-spacing: 0.25px;
     max-width: 25ch;
     margin-inline: auto;
-    color: #333333;
+    color: #141414;
     z-index: 1;
     /* font-family: 'Playfair Display', serif; */
     font-size: calc(3rem + 0.1vw);

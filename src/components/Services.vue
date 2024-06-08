@@ -177,6 +177,7 @@ onMounted(() => {
 
 .list__item:last-of-type {
     margin-block: 0;
+    border-bottom: none;
 }
 
 @media (min-width: 475px) {
