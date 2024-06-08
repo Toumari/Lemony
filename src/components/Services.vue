@@ -8,7 +8,7 @@
                     <p class="card__description__grey">
                         Get a professional website designed to your needs.
                     </p>
-                    <h3 class="list__header">What's included</h3>
+                    <h3 class="list__header">Package Includes</h3>
                     <ul class="list" role="list">
                         <li class="list__item">A website tailored to your brand identity and target audience</li>
                         <li class="list__item">Fully responsive design, your website will look great on any device!</li>
@@ -26,7 +26,7 @@
                     <p class="card__description__grey">
                         Build your brand identity with a professional logo.
                     </p>
-                    <h3 class="list__header">What's included</h3>
+                    <h3 class="list__header">Package Includes</h3>
                     <ul class="list" role="list">
                         <li class="list__item">Professional logo designed by us</li>
                         <li class="list__item">Unlimited revisions to design</li>
@@ -103,6 +103,7 @@ onMounted(() => {
     padding: 2.5rem;
     border-radius: 8px;
     margin-bottom: 2rem;
+    text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
 }
@@ -127,30 +128,22 @@ onMounted(() => {
 }
 
 .card__title {
-    font-size: var(--fs-2xl);
+    font-size: calc(1.5rem + 0.5vw);
     line-height: 1.2;
-    margin-bottom: 0.25rem
-}
-
-.card__small-text {
-    font-size: calc(1.25 * var(--fs-xxs));
-    margin-top: 1rem;
-    margin-bottom: 0rem;
-    line-height: 1rem;
-    display: block;
-    font-weight: bold;
+    font-weight: 900;
+    margin-bottom: 0.75rem
 }
 
 .card__description {
-    font-size: var(--fs-sm);
+    font-size: calc(1rem + 0.05vw);
     line-height: 1.25rem;
 }
 
 .card__description__grey {
-    line-height: 1rem;
-    margin-top: 1rem;
-    font-size: var(--fs-sm);
 
+    margin-top: 1rem;
+    font-size: calc(1rem + 0.05vw);
+    font-weight: 500;
 }
 
 .finance__info {
@@ -165,25 +158,32 @@ onMounted(() => {
 }
 
 .list__header {
-    font-size: var(--fs-lg);
-    font-weight: bold;
-    margin-top: 1rem;
+    text-align: left;
+    padding-bottom: 0.2s5rem;
+    font-size: calc(1.1rem + 0.5vw);
+    font-weight: 900;
+    margin-top: 2rem;
     margin-bottom: 0.5rem;
 }
 
 .list__item {
-    font-size: var(--fs-sm);
-    margin-block: 0.5rem;
-    margin-left: 1.5rem;
-    list-style: square;
+    font-size: calc(1rem + 0.01vw);
+    margin-block: 0.75rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #847f7fb8;
+    text-align: left;
     font-weight: 500;
+}
+
+.list__item:last-of-type {
+    margin-block: 0;
 }
 
 @media (min-width: 475px) {
     .cards {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 1rem;
+        gap: 2rem;
     }
 }
 
@@ -192,11 +192,15 @@ onMounted(() => {
     .services {
         justify-content: space-between;
         align-items: flex-start;
-        gap: 2rem;
     }
 
-    .services__title {
-        font-size: var(--fs-2xl);
+
+    .card__title {
+        font-size: calc(1rem + 0.5vw);
+    }
+
+    .list__header {
+        font-size: calc(1rem + 0.3vw);
     }
 
     .card {
@@ -213,9 +217,7 @@ onMounted(() => {
         padding: 2rem;
     }
 
-    .card__title {
-        font-size: var(--fs-3xl);
-    }
+
 }
 
 /* xl */

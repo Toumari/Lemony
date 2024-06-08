@@ -138,7 +138,7 @@ article {
     }
 
     p {
-        font-size: 0.875rem;
+        font-size: calc(1rem + 0.1vw);
         font-weight: 400;
     }
 

@@ -134,7 +134,7 @@ onMounted(() => {
 }
 
 .about__description {
-    font-size: calc(var(--fs-base) * 0.95);
+    font-size: calc(1rem + 0.05vw);
     font-weight: 400;
     line-height: 1.6;
     color: #333;
@@ -202,7 +202,7 @@ onMounted(() => {
     }
 
     .about__description {
-        font-size: var(--fs-md);
+
         max-width: 70ch;
         flex: 1;
     }
