@@ -3,7 +3,7 @@
         <span class="title__lemon" ref="titleLemon">🍋</span>
         <section class="hero container" role="region" aria-label="Hero Section" ref="hero">
             <h1 class="hero__title">
-                We build the website your brand deserves.
+                We build the website your brand deserves
             </h1>
             <p ref="myElement" class="hero__description">
                 Bring your brand into the modern world, with a website that is as unique as you are.
