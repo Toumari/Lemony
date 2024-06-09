@@ -3,21 +3,21 @@
 
         <div class="projects">
 
-            <h2 class="title project__section__title " id="project__section__title">Latest <br class="line__break" />
+            <h2 class="title project__section__title" id="project__section__title">Latest <br class="line__break" />
                 Projects</h2>
             <article class="project" id="proj__1">
                 <h4 class="project__title">Project Title</h4>
                 <p class="project__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,
                     perferendis.
                 </p>
-                <img src="@/assets/mp2.png" alt="">
+                <img src="@/assets/dom.png" alt="">
             </article>
             <article class="project" id="proj__2">
                 <h4 class="project__title">Project Title</h4>
                 <p class="project__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,
                     perferendis.
                 </p>
-                <img src="@/assets/mp2.png" alt="">
+                <img src="@/assets/port3.png" alt="">
             </article>
             <article class="project" id="proj__3">
                 <h4 class="project__title">Project Title</h4>
@@ -35,15 +35,47 @@
 </script>
 
 <style scoped>
-.project {
-    margin-top: 2rem;
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    align-items: center;
+    column-gap: 2rem;
 }
 
+.project__section__title {
+    margin-bottom: 2rem;
+}
 
+.project__title {
+    margin-bottom: 0.75rem;
+}
 
+.project__description {
+    margin-bottom: 1rem;
+}
 
+img {
 
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.3s ease;
+}
 
+.project {
+
+    border-bottom: 2px solid #333;
+    max-height: 400px;
+    max-width: 400px;
+    justify-self: start;
+    align-self: center;
+
+}
 
 .line__break {
     display: none;
@@ -103,7 +135,7 @@
         grid-area: t;
         align-self: start;
         justify-self: start;
-        font-size: calc(2rem + 0.1vw);
+        font-size: calc(5rem + 0.1vw);
         font-weight: 900;
     }
 
@@ -123,8 +155,10 @@
 
         display: grid;
         justify-content: center;
-        column-gap: 3rem;
+
+        grid-template-columns: repeat(3, minmax(0, 1fr));
         align-items: center;
+        column-gap: 2rem;
         min-height: 0;
         min-width: 0;
         grid-template-areas:
@@ -142,8 +176,7 @@
         grid-area: t;
         align-self: start;
         justify-self: start;
-
-        font-size: calc(3rem + 0.1vw);
+        font-size: calc(5rem + 0.1vw);
         font-weight: 900;
     }
 
