@@ -4,23 +4,23 @@
         <div class="projects">
 
             <h2 class="title project__section__title" id="project__section__title">Latest <br class="line__break" />
-                Projects</h2>
+                Projects.</h2>
             <article class="project" id="proj__1">
-                <h4 class="project__title">Project Title</h4>
+                <h4 class="project__title">Dominik Lorenzo</h4>
                 <p class="project__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,
                     perferendis.
                 </p>
                 <img src="@/assets/dom.png" alt="">
             </article>
             <article class="project" id="proj__2">
-                <h4 class="project__title">Project Title</h4>
+                <h4 class="project__title">Personal Portfolio</h4>
                 <p class="project__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,
                     perferendis.
                 </p>
                 <img src="@/assets/port3.png" alt="">
             </article>
             <article class="project" id="proj__3">
-                <h4 class="project__title">Project Title</h4>
+                <h4 class="project__title">M.P. Marketing</h4>
                 <p class="project__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,
                     perferendis.
                 </p>
@@ -35,22 +35,28 @@
 </script>
 
 <style scoped>
+.portfolio {
+    margin-bottom: 5rem
+}
+
 .projects {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+
     justify-content: center;
     grid-template-columns: 1fr;
     align-items: center;
-    column-gap: 2rem;
+    row-gap: 2rem;
 }
 
-.project__section__title {
-    margin-bottom: 2rem;
+.title {
+    margin-bottom: 0;
 }
+
+.project__section__title {}
 
 .project__title {
-    margin-bottom: 0.75rem;
+    margin-bottom: 0rem;
 }
 
 .project__description {
@@ -67,15 +73,7 @@ img {
     transition: all 0.3s ease;
 }
 
-.project {
 
-    border-bottom: 2px solid #333;
-    max-height: 400px;
-    max-width: 400px;
-    justify-self: start;
-    align-self: center;
-
-}
 
 .line__break {
     display: none;
@@ -93,6 +91,16 @@ img {
 
 /* lg */
 @media (min-width: 1024px) {
+
+    .project {
+
+        border-bottom: 2px solid #333;
+        max-height: 400px;
+        max-width: 400px;
+        justify-self: start;
+        align-self: center;
+
+    }
 
     .portfolio {
         padding-bottom: 5rem;
@@ -162,7 +170,7 @@ img {
         min-height: 0;
         min-width: 0;
         grid-template-areas:
-            "t . ."
+
             "t . ."
             "t b c"
             "a b c"

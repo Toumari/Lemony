@@ -8,7 +8,9 @@
             <p ref="myElement" class="hero__description">
                 Bring your brand into the modern world, with a website that is as unique as you are.
             </p>
-            <a ref="moreBtn" @click=scrollToKeyFeatures class="hero__btn btn" role="button">Learn More</a>
+            <!-- <a ref="moreBtn" @click=scrollToKeyFeatures class="hero__btn btn" role="button">Learn More</a> -->
+            <p class="learn__more">Learn More</p>
+            <img src="@/assets/down2.png" class="chevron" alt="">
         </section>
     </div>
 </template>
@@ -32,14 +34,14 @@ onMounted(() => {
             paused: true
         })
 
-        moreBtn.value.addEventListener('mouseenter', () => {
-            btnPulse.play()
-        })
+        // moreBtn.value.addEventListener('mouseenter', () => {
+        //     btnPulse.play()
+        // })
 
-        moreBtn.value.addEventListener('mouseleave', () => {
-            btnPulse.restart()
-            btnPulse.pause()
-        })
+        // moreBtn.value.addEventListener('mouseleave', () => {
+        //     btnPulse.restart()
+        //     btnPulse.pause()
+        // })
 
         const tl = gsap.timeline()
         tl.from('.hero', {
@@ -68,6 +70,13 @@ onMounted(() => {
                 yoyo: true,
             })
 
+        gsap.from('.chevron', {
+            duration: 0.5,
+            y: 10,
+            repeat: -1,
+            yoyo: true,
+            ease: "back.out(1)",
+        });
 
 
     })
@@ -81,7 +90,7 @@ onMounted(() => {
 
 const scrollToKeyFeatures = () => {
     // Smooth scrolling behavior (optional):
-    document.querySelector('#keyfeatures').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    document.querySelector('.key__article').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 
 </script>
@@ -91,7 +100,17 @@ section {
     margin: 0;
 }
 
+.learn__more {
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: calc(1.2rem + 0.1vw);
+    margin-bottom: 1rem;
+}
 
+.chevron {
+    width: 3rem;
+    padding-bottom: 1rem;
+}
 
 .hero__wrapper,
 .hero {
