@@ -134,7 +134,7 @@ img {
 
     img {
         margin-top: 1rem;
-        border-radius: 8px;
+
     }
 
     .line__break {

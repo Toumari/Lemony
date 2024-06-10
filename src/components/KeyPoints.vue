@@ -30,7 +30,7 @@
                             </g>
                         </g>
                     </svg>
-                    <h4>Tailored Designs</h4>
+                    <h4 class="article__title">Tailored Designs</h4>
                     <p>We work closely with customers to ensure that your dream website is a reality.</p>
                 </article>
                 <article class="key__article">
@@ -45,7 +45,7 @@
                             </path>
                         </g>
                     </svg>
-                    <h4>SEO Champions</h4>
+                    <h4 class="article__title">SEO Champions</h4>
                     <p>We'll make sure your website stands out amongst the competition with SEO optimisation.</p>
                 </article>
                 <article class="key__article">
@@ -65,7 +65,7 @@
                             </g>
                         </g>
                     </svg>
-                    <h4>Continual Support</h4>
+                    <h4 class="article__title">Continual Support</h4>
                     <p>We provide free hosting, SSL protection and ongoing maintenance for customers.</p>
                 </article>
             </div>
@@ -107,6 +107,11 @@ onMounted(() => {
 </script>
 
 <style scoped>
+.article__title {
+    font-size: calc(1.15rem + 0.2vw);
+    margin-bottom: 1rem;
+}
+
 .wrapper {
     background-color: #f5f5f5;
     max-width: 100%;
@@ -124,16 +129,13 @@ article {
     min-height: 100%;
     text-align: center;
     margin-bottom: 2rem;
-
     background-color: #2e2e2e;
     color: white;
     padding: 2rem;
     border-radius: 5px;
 
 
-    h4 {
-        margin-bottom: .5rem;
-    }
+
 
     p {
         font-size: calc(1rem + 0.1vw);

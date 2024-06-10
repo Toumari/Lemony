@@ -1,14 +1,14 @@
 <template>
     <div class="services__wrapper" id="services" role="region" aria-label="Services Section">
         <section class="services container" ref="services">
-            <h2 class="title" :class="{ 'service__title__scale': titleY }">What We offer</h2>
+            <h2 class="title">Our Services</h2>
             <div class="cards" role="list">
                 <div class="card__yellow card" role="listitem">
                     <h2 class="card__title">Web Design.</h2>
                     <p class="card__description__grey">
                         Get a professional website designed to your needs.
                     </p>
-                    <h3 class="list__header">Package Includes</h3>
+                    <h3 class="list__header">What you get:</h3>
                     <ul class="list" role="list">
                         <li class="list__item">A website tailored to your brand identity and target audience</li>
                         <li class="list__item">Fully responsive design, your website will look great on any device!</li>
@@ -26,7 +26,7 @@
                     <p class="card__description__grey">
                         Build your brand identity with a professional logo.
                     </p>
-                    <h3 class="list__header">Package Includes</h3>
+                    <h3 class="list__header">What you get:</h3>
                     <ul class="list" role="list">
                         <li class="list__item">Professional logo designed by us</li>
                         <li class="list__item">Unlimited revisions to design</li>
@@ -76,8 +76,8 @@ onMounted(() => {
 }
 
 .card {
-    padding: 2.5rem;
     border-radius: 8px;
+    padding: 2.5rem;
     margin-bottom: 2rem;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -132,12 +132,14 @@ onMounted(() => {
 }
 
 .list__item {
+    list-style: circle;
     font-size: calc(1rem + 0.01vw);
     margin-block: 0.75rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid #847f7fb8;
     text-align: left;
     font-weight: 500;
+    margin-left: 1rem;
 }
 
 .list__item:last-of-type {
@@ -161,7 +163,7 @@ onMounted(() => {
     }
 
     .card__title {
-        font-size: calc(1rem + 0.5vw);
+        font-size: calc(1.2rem + 0.5vw);
     }
 
     .list__header {

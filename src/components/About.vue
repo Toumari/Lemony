@@ -123,7 +123,6 @@ onMounted(() => {
     width: 100%;
     height: 250px;
     object-fit: cover;
-    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -160,7 +159,7 @@ onMounted(() => {
     color: #2d2d2d;
     display: inline-block;
     padding: 0.2rem 0.5rem;
-    border-radius: 8px;
+
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
     font-size: var(--fs-sm);
@@ -180,7 +179,6 @@ onMounted(() => {
     }
 
     .about__img {
-        border-radius: 8px;
         margin-bottom: 1.5rem;
         flex: 1;
         order: 0;
