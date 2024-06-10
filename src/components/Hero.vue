@@ -71,7 +71,7 @@ const scrollToKeyFeatures = () => {
 }
 
 .chevron {
-    width: 3rem;
+    width: 2rem;
     padding-bottom: 1rem;
 }
 
