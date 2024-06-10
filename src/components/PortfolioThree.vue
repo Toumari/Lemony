@@ -164,13 +164,7 @@ img {
         margin-bottom: 0.25rem;
     }
 
-    .project__section__title {
-        grid-area: t;
-        align-self: start;
-        justify-self: start;
-        font-size: calc(5rem + 0.1vw);
-        font-weight: 900;
-    }
+
 
     #proj__1 {
         grid-area: a;
@@ -199,9 +193,9 @@ img {
 
     .project__section__title {
         grid-area: t;
-        align-self: start;
+        align-self: center;
         justify-self: start;
-        font-size: calc(5rem + 0.1vw);
+        font-size: calc(4rem + 0.1vw);
         font-weight: 900;
     }
 
