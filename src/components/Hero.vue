@@ -20,6 +20,23 @@ import { gsap } from "gsap";
 
 onMounted(() => {
     let ctx = gsap.context(() => {
+
+        gsap.from('.hero__title', {
+            duration: 1,
+            y: -50,
+            autoAlpha: 1,
+            ease: 'back.out(1.7)',
+            stagger: 0.2,
+        });
+
+        gsap.from('.hero__description', {
+            duration: 1,
+            y: -50,
+            autoAlpha: 1,
+            ease: 'back.out(1.7)',
+            stagger: 0.2,
+        });
+
         gsap.fromTo(
             ".title__lemon",
             {

@@ -84,38 +84,24 @@ onMounted(() => {
     gsap.registerPlugin(ScrollTrigger)
 
     gsap.context(() => {
+
+        gsap.from('.title', {
+            scrollTrigger: '.title',
+            duration: 0.5,
+            y: -50,
+            autoAlpha: 1,
+            ease: "back.out(1.7)"
+        })
+
         gsap.from('.three-col', {
             scrollTrigger: '.three-col',
             duration: 0.5,
-            y: 50,
+            y: -50,
             autoAlpha: 1,
             ease: "back.out(1.7)",
             stagger: 0.2
         })
-
-        gsap.fromTo('.about__technologies',
-            {
-                scrollTrigger: '.technologies__header',
-                duration: 0.5,
-                opacity: 0,
-                y: 50,
-                autoAlpha: 1,
-                stagger: 0.05,
-                ease: "back.out(1.7)",
-            },
-            {
-                scrollTrigger: {
-                    trigger: '.technologies__header',
-                    end: "bottom 20%",
-                },
-                y: 0,
-                opacity: 1,
-                autoAlpha: 1,
-                stagger: 0.05,
-                ease: "back.out(1.7)",
-            })
     })
-
 })
 
 </script>

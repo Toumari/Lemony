@@ -48,7 +48,7 @@ onMounted(() => {
         gsap.from(".about", {
             scrollTrigger: ".about",
             duration: 1,
-            y: 100,
+            y: -50,
             autoAlpha: 1,
             ease: "back.out(1.7)",
             stagger: 0.2,
