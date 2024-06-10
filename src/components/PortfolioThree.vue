@@ -41,7 +41,7 @@ onMounted(() => {
         gsap.from('#project__section__title', {
             scrollTrigger: '#project__section__title',
             duration: 0.5,
-            y: 150,
+            y: -50,
             autoAlpha: 1,
             ease: "back.out(1.7)",
             stagger: 0.2,
@@ -50,7 +50,7 @@ onMounted(() => {
         gsap.from('.project', {
             scrollTrigger: '.project',
             duration: 0.5,
-            x: 50,
+            y: -50,
             autoAlpha: 1,
             ease: "back.out(1)",
             stagger: 0.2,
