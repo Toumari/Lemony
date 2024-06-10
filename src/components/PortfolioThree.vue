@@ -9,24 +9,21 @@
                 <article class="project" id="proj__1">
                     <h4 class="project__title">Dominik Lorenzo</h4>
                     <p class="project__description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,
-                        perferendis.
+                        A portfolio / biography site for a michelin star chef.
                     </p>
                     <img src="@/assets/dom.png" alt="" />
                 </article>
                 <article class="project" id="proj__2">
                     <h4 class="project__title">Personal Portfolio</h4>
                     <p class="project__description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,
-                        perferendis.
+                        A personal portfolio site to showcase my work and skills.
                     </p>
                     <img src="@/assets/port3.png" alt="" />
                 </article>
                 <article class="project" id="proj__3">
                     <h4 class="project__title">M.P. Marketing</h4>
                     <p class="project__description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,
-                        perferendis.
+                        A marketing site for a local business in the UK.
                     </p>
                     <img src="@/assets/mp2.png" alt="" />
                 </article>
