@@ -1,33 +1,37 @@
 <template>
-    <section class="portfolio container">
+    <div class="wrapper">
 
-        <div class="projects">
 
-            <h2 class="title project__section__title" id="project__section__title">Latest <br class="line__break" />
-                Projects.</h2>
-            <article class="project" id="proj__1">
-                <h4 class="project__title">Dominik Lorenzo</h4>
-                <p class="project__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,
-                    perferendis.
-                </p>
-                <img src="@/assets/dom.png" alt="">
-            </article>
-            <article class="project" id="proj__2">
-                <h4 class="project__title">Personal Portfolio</h4>
-                <p class="project__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,
-                    perferendis.
-                </p>
-                <img src="@/assets/port3.png" alt="">
-            </article>
-            <article class="project" id="proj__3">
-                <h4 class="project__title">M.P. Marketing</h4>
-                <p class="project__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,
-                    perferendis.
-                </p>
-                <img src="@/assets/mp2.png" alt="">
-            </article>
-        </div>
-    </section>
+        <section class="portfolio container">
+
+            <div class="projects">
+
+                <h2 class="title project__section__title" id="project__section__title">Latest <br class="line__break" />
+                    Projects.</h2>
+                <article class="project" id="proj__1">
+                    <h4 class="project__title">Dominik Lorenzo</h4>
+                    <p class="project__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,
+                        perferendis.
+                    </p>
+                    <img src="@/assets/dom.png" alt="">
+                </article>
+                <article class="project" id="proj__2">
+                    <h4 class="project__title">Personal Portfolio</h4>
+                    <p class="project__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,
+                        perferendis.
+                    </p>
+                    <img src="@/assets/port3.png" alt="">
+                </article>
+                <article class="project" id="proj__3">
+                    <h4 class="project__title">M.P. Marketing</h4>
+                    <p class="project__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,
+                        perferendis.
+                    </p>
+                    <img src="@/assets/mp2.png" alt="">
+                </article>
+            </div>
+        </section>
+    </div>
 </template>
 
 <script setup>
@@ -62,9 +66,11 @@ onMounted(() => {
 </script>
 
 <style scoped>
-.portfolio {
-    margin-bottom: 5rem
+.wrapper {
+    background-color: #f5f5f5;
 }
+
+
 
 .projects {
     display: flex;

@@ -30,7 +30,6 @@
     width: 100%;
     max-width: 800px;
     margin: auto;
-    margin-top: 3rem;
     text-align: center;
 }
 
@@ -103,9 +102,7 @@ form {
 /* md */
 @media (min-width: 768px) {
 
-    .contact {
-        margin-top: 5rem;
-    }
+
 
     .contact__title {
         font-size: var(--fs-2xl);

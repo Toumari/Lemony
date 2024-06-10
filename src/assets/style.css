@@ -115,12 +115,11 @@ a {
 }
 
 section{
-  margin-top: 5rem;
+
+  padding: 3rem 0;
 }
 
-.section {
-  margin-top: 5rem;
-}
+
 
 p,a,li {
   font-family: 'satoshi', sans-serif;
@@ -138,13 +137,7 @@ h1,h2,h3,h4,h5,h6 {
 
 /* md */
 @media (min-width: 768px) {
-  section{
-    margin-top: 7.5rem;
-  }
 
-  .section {
-    margin-top: 7.5rem;
-  }
 }
 
 /* lg */
