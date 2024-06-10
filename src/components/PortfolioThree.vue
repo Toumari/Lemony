@@ -38,29 +38,24 @@ import { onMounted } from "vue";
 
 onMounted(() => {
     gsap.context(() => {
-        gsap.to("#project__section__title", {
-            scrollTrigger: {
-                trigger: "#project__section__title",
-                scrub: 1
-            },
+        gsap.from("#project__section__title", {
+            scrollTrigger: "#project__section__title",
             duration: 0.5,
-            y: 5,
+
+            y: -50,
             autoAlpha: 1,
             ease: "back.out(1.7)",
             stagger: 0.2,
         });
 
         gsap.from(".project", {
-            scrollTrigger: {
-                trigger: "#project__section__title",
-                start: 'bottom bottom',
-                scrub: 1,
-            },
+            scrollTrigger: ".project",
             duration: 0.5,
             y: -50,
             autoAlpha: 1,
             ease: "back.out(1)",
             stagger: 0.2,
+            scrub: 1,
         });
     });
 });
@@ -72,13 +67,13 @@ onMounted(() => {
 }
 
 .projects {
-
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     grid-template-columns: 1fr;
     align-items: center;
-    row-gap: 2rem;
+
 }
 
 .title {
@@ -86,11 +81,16 @@ onMounted(() => {
 }
 
 .project__title {
+    border-top: 1px solid #333;
+    padding-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 0rem;
+    font-size: calc(1.25rem + 0.1vw);
 }
 
 .project__description {
     margin-bottom: 1rem;
+    font-size: calc(1rem + 0.1vw);
 }
 
 img {
@@ -103,11 +103,30 @@ img {
     display: none;
 }
 
+@media (min-width: 640px) {
+
+    .projects {
+        row-gap: 3rem;
+    }
+
+    .project__title {
+
+        margin-top: 0;
+    }
+
+}
+
 @media (min-width: 1024px) {
     .project {
         justify-self: start;
         align-self: center;
     }
+
+    .project__title {
+        padding-top: 0rem;
+    }
+
+
 
     .portfolio {
         padding-bottom: 5rem;
@@ -120,6 +139,10 @@ img {
 
     .line__break {
         display: block;
+    }
+
+    .projects {
+        row-gap: 2rem;
     }
 
     .project {
