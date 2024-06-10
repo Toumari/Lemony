@@ -1,7 +1,9 @@
 <template>
     <div class="services__wrapper" id="services" role="region" aria-label="Services Section">
         <section class="services container" ref="services">
-            <h2 class="title" :class="{ 'service__title__scale': titleY }">What We offer</h2>
+            <h2 class="title" :class="{ service__title__scale: titleY }">
+                What We offer
+            </h2>
             <div class="cards" role="list">
                 <div class="card__yellow card" role="listitem">
                     <h2 class="card__title">Web Design.</h2>
@@ -10,14 +12,26 @@
                     </p>
                     <h3 class="list__header">Package Includes</h3>
                     <ul class="list" role="list">
-                        <li class="list__item">A website tailored to your brand identity and target audience</li>
-                        <li class="list__item">Fully responsive design, your website will look great on any device!</li>
-                        <li class="list__item">SEO optimisation, including on-page optimisation to improve your
-                            website's ranking in search results</li>
+                        <li class="list__item">
+                            A website tailored to your brand identity and target audience
+                        </li>
+                        <li class="list__item">
+                            Fully responsive design, your website will look great on any
+                            device!
+                        </li>
+                        <li class="list__item">
+                            SEO optimisation, including on-page optimisation to improve your
+                            website's ranking in search results
+                        </li>
                         <li class="list__item">Full source files, you own your website!</li>
-                        <li class="list__item">Free SSL Encryption to protect your website and visitor information</li>
+                        <li class="list__item">
+                            Free SSL Encryption to protect your website and visitor
+                            information
+                        </li>
                         <li class="list__item">Free website hosting</li>
-                        <li class="list__item">Free Domain name (subject to availability)</li>
+                        <li class="list__item">
+                            Free Domain name (subject to availability)
+                        </li>
                         <li class="list__item">Post launch support and maintenance</li>
                     </ul>
                 </div>
@@ -31,7 +45,9 @@
                         <li class="list__item">Professional logo designed by us</li>
                         <li class="list__item">Unlimited revisions to design</li>
                         <li class="list__item">High quality files to use for all media</li>
-                        <li class="list__item">Future revisions (up to 12 months after completion date)</li>
+                        <li class="list__item">
+                            Future revisions (up to 12 months after completion date)
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -40,33 +56,14 @@
 </template>
 
 <script setup>
+import { ref, onMounted, watch } from "vue";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-import { ref, onMounted, watch } from 'vue'
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+gsap.registerPlugin(ScrollTrigger);
 
-gsap.registerPlugin(ScrollTrigger)
-
-const scrollY = ref(0)
-const titleY = ref(false)
-const services = ref(null)
-
-
-onMounted(() => {
-    window.addEventListener('scroll', () => {
-        scrollY.value = window.scrollY
-    })
-
-    titleY.value = document.querySelector('.services__title');
-})
-
-watch(scrollY, (newVal) => {
-    if (newVal > titleY.value + 500) {
-        titleY.value = true
-    } else {
-        titleY.value = false
-    }
-})
+const titleY = ref(false);
+const services = ref(null);
 
 onMounted(() => {
     gsap.from(services.value, {
@@ -75,14 +72,9 @@ onMounted(() => {
         x: 50,
         autoAlpha: 1,
         ease: "back.out(1)",
-        stagger: 0.2
-    })
-})
-
-
-
-
-
+        stagger: 0.2,
+    });
+});
 </script>
 
 <style scoped>
@@ -93,7 +85,6 @@ onMounted(() => {
 .services__title {
     width: fit-content;
     font-weight: 700;
-    transition: all 0.3s ease;
     margin-bottom: 1rem;
     font-size: var(--fs-xl);
 }
@@ -117,8 +108,8 @@ onMounted(() => {
 }
 
 .card__yellow {
-    background-color: #FFD913;
-    color: #3c3c3c
+    background-color: #ffd913;
+    color: #3c3c3c;
 }
 
 .card__dark {
@@ -130,7 +121,7 @@ onMounted(() => {
     font-size: calc(1.5rem + 0.5vw);
     line-height: 1.2;
     font-weight: 900;
-    margin-bottom: 0.75rem
+    margin-bottom: 0.75rem;
 }
 
 .card__description {
@@ -139,21 +130,9 @@ onMounted(() => {
 }
 
 .card__description__grey {
-
     margin-top: 1rem;
     font-size: calc(1rem + 0.05vw);
     font-weight: 500;
-}
-
-.finance__info {
-    font-size: var(--fs-lg);
-    margin-top: 1rem;
-}
-
-.finance__price {
-    font-size: var(--fs-2xl);
-    font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .list__header {
@@ -194,7 +173,6 @@ onMounted(() => {
         align-items: flex-start;
     }
 
-
     .card__title {
         font-size: calc(1rem + 0.5vw);
     }
@@ -216,8 +194,6 @@ onMounted(() => {
     .card {
         padding: 2rem;
     }
-
-
 }
 
 /* xl */

@@ -4,16 +4,15 @@
         <p class="contact__description">Get in touch with me via email and I'll reply as fast as I can to your enquiry!
         </p>
         <form action="https://api.web3forms.com/submit" method="POST" aria-label="Contact Form">
-            <!-- Replace with your Access Key -->
+
             <input type="hidden" name="access_key" value="7364cf4f-a2d8-4e74-87fd-8f078b9b10a4">
-            <!-- Form Inputs. Each input must have a name="" attribute -->
+
             <label for="name">Name</label>
             <input class="contact__name" type="text" name="name" required aria-required="true">
             <label for="email">Email</label>
             <input class="contact__email" type="email" name="email" required aria-required="true">
             <label for="message">Message</label>
             <textarea class="contact__message" name="message" required aria-required="true"></textarea>
-            <!-- hCaptcha Spam Protection -->
             <div class="h-captcha" data-captcha="true" aria-label="hCaptcha Spam Protection"></div>
             <button class="contact__submit" type="submit">Submit</button>
         </form>
@@ -32,8 +31,6 @@
     margin: auto;
     text-align: center;
 }
-
-
 
 .contact__description {
     font-size: calc(var(--fs-base) * 0.95);
@@ -92,18 +89,7 @@ form {
     max-width: 800px;
 }
 
-
-/* xs */
-/* @media (min-width: 475px) {} */
-
-/* sm */
-/* @media (min-width: 640px) {} */
-
-/* md */
 @media (min-width: 768px) {
-
-
-
     .contact__title {
         font-size: var(--fs-2xl);
     }
@@ -114,13 +100,6 @@ form {
     }
 }
 
-/* lg */
-@media (min-width: 1024px) {}
-
-/* xl */
-/* @media (min-width: 1280px) {} */
-
-/* xxl */
 @media (min-width: 1536px) {
     .contact__description {
         font-size: var(--fs-lg);
