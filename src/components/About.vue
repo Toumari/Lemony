@@ -160,7 +160,7 @@ onMounted(() => {
     color: #2d2d2d;
     display: inline-block;
     padding: 0.2rem 0.5rem;
-
+    border-radius: 5px;
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
     font-size: var(--fs-sm);
