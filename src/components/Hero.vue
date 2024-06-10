@@ -22,7 +22,7 @@ onMounted(() => {
     let ctx = gsap.context(() => {
 
         gsap.from('.hero__title', {
-            duration: 1,
+            duration: 0.5,
             y: -50,
             autoAlpha: 1,
             ease: 'back.out(1.7)',
@@ -30,7 +30,7 @@ onMounted(() => {
         });
 
         gsap.from('.hero__description', {
-            duration: 1,
+            duration: 0.75,
             y: -50,
             autoAlpha: 1,
             ease: 'back.out(1.7)',

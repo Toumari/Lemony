@@ -38,23 +38,29 @@ import { onMounted } from "vue";
 
 onMounted(() => {
     gsap.context(() => {
-        gsap.from("#project__section__title", {
-            scrollTrigger: "#project__section__title",
+        gsap.to("#project__section__title", {
+            scrollTrigger: {
+                trigger: "#project__section__title",
+                scrub: 1
+            },
             duration: 0.5,
-            y: -50,
+            y: 5,
             autoAlpha: 1,
             ease: "back.out(1.7)",
             stagger: 0.2,
         });
 
         gsap.from(".project", {
-            scrollTrigger: ".project",
+            scrollTrigger: {
+                trigger: "#project__section__title",
+                start: 'bottom bottom',
+                scrub: 1,
+            },
             duration: 0.5,
             y: -50,
             autoAlpha: 1,
             ease: "back.out(1)",
             stagger: 0.2,
-            scrub: 1,
         });
     });
 });
@@ -66,7 +72,7 @@ onMounted(() => {
 }
 
 .projects {
-    padding-top: 2rem;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
