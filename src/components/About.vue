@@ -120,6 +120,7 @@ onMounted(() => {
 }
 
 .about__img {
+    border-radius: 8px;
     width: 100%;
     height: 250px;
     object-fit: cover;
