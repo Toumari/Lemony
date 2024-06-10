@@ -33,7 +33,6 @@
 <script setup>
 
 import { gsap } from 'gsap'
-import { getJSDocClassTag } from 'typescript';
 import { onMounted } from 'vue'
 
 onMounted(() => {
