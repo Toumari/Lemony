@@ -115,7 +115,7 @@ a {
 }
 
 section{
-
+  overflow: hidden;
   padding: 3rem 0;
 }
 

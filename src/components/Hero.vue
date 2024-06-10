@@ -78,6 +78,12 @@ const scrollToKeyFeatures = () => {
 </script>
 
 <style scoped>
+.hero__wrapper {
+    position: relative;
+    overflow: hidden;
+
+}
+
 section {
     margin: 0;
 }

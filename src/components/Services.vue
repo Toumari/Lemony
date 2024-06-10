@@ -86,7 +86,9 @@ onMounted(() => {
 </script>
 
 <style scoped>
-.services__wrapper {}
+.services__wrapper {
+    overflow: hidden;
+}
 
 .services__title {
     width: fit-content;
