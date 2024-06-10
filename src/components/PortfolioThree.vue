@@ -32,6 +32,34 @@
 
 <script setup>
 
+import { gsap } from 'gsap'
+import { getJSDocClassTag } from 'typescript';
+import { onMounted } from 'vue'
+
+onMounted(() => {
+
+    let ctx = gsap.context(() => {
+        gsap.from('#project__section__title', {
+            scrollTrigger: '#project__section__title',
+            duration: 0.5,
+            y: 150,
+            autoAlpha: 1,
+            ease: "back.out(1.7)",
+            stagger: 0.2,
+        })
+
+        gsap.from('.project', {
+            scrollTrigger: '.project',
+            duration: 0.5,
+            x: 50,
+            autoAlpha: 1,
+            ease: "back.out(1)",
+            stagger: 0.2,
+            scrub: 1
+        })
+    })
+})
+
 </script>
 
 <style scoped>
@@ -64,10 +92,9 @@
 }
 
 img {
-
+    max-width: 100%;
     border-radius: 8px;
-    width: 100%;
-    height: 100%;
+
     object-fit: cover;
     object-position: center;
     transition: all 0.3s ease;
@@ -120,12 +147,11 @@ img {
 
     .project {
         border-top: 2px solid #333;
-        padding-top: 1rem;
         max-height: 400px;
         max-width: 400px;
         justify-self: start;
         align-self: center;
-        margin-top: 3rem;
+
     }
 
     .project__title {
@@ -162,22 +188,15 @@ img {
     .projects {
 
         display: grid;
-        justify-content: center;
-
         grid-template-columns: repeat(3, minmax(0, 1fr));
-        align-items: center;
         column-gap: 2rem;
         min-height: 0;
         min-width: 0;
         grid-template-areas:
-
             "t . ."
             "t b c"
             "a b c"
             "a b ."
-            ". . .";
-
-
     }
 
     .project__section__title {

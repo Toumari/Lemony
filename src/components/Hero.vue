@@ -6,7 +6,7 @@
                 We build the website your brand deserves
             </h1>
             <p ref="myElement" class="hero__description">
-                Bring your brand into the modern world, with a website that is as unique as you are.
+                Bring your brand into the modern world with a website that is as unique as you are.
             </p>
             <!-- <a ref="moreBtn" @click=scrollToKeyFeatures class="hero__btn btn" role="button">Learn More</a> -->
             <p class="learn__more">Learn More</p>
@@ -25,24 +25,6 @@ import { gsap } from 'gsap'
 onMounted(() => {
 
     let ctx = gsap.context(() => {
-        let btnPulse = gsap.to('.hero__btn', {
-            scale: 1.1,
-            y: 5,
-            duration: 1,
-            repeat: -1,
-            yoyo: true,
-            paused: true
-        })
-
-        // moreBtn.value.addEventListener('mouseenter', () => {
-        //     btnPulse.play()
-        // })
-
-        // moreBtn.value.addEventListener('mouseleave', () => {
-        //     btnPulse.restart()
-        //     btnPulse.pause()
-        // })
-
         const tl = gsap.timeline()
         tl.from('.hero', {
             delay: 0.1,
