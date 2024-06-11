@@ -117,6 +117,11 @@ img {
 }
 
 @media (min-width: 1024px) {
+
+    .projects {
+        padding-top: 0rem;
+    }
+
     .project {
         justify-self: start;
         align-self: center;
@@ -124,12 +129,6 @@ img {
 
     .project__title {
         padding-top: 0rem;
-    }
-
-
-
-    .portfolio {
-        padding-bottom: 5rem;
     }
 
     img {
@@ -143,6 +142,7 @@ img {
 
     .projects {
         row-gap: 2rem;
+        margin-bottom: 2rem;
     }
 
     .project {
