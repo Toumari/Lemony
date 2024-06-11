@@ -25,9 +25,8 @@ import Footer from '@/components/Footer.vue'
         <Hero />
       </div>
       <KeyPoints />
-      <!-- <About /> -->
-
       <Services />
+      <About />
 
       <!-- <Portfoliotwo /> -->
       <PortfolioThree />

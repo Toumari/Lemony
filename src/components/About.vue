@@ -1,6 +1,6 @@
 <template>
     <section class="about container section" id="about" role="region" aria-label="About Me Section" ref="about">
-        <h2 class="title">About Me</h2>
+        <h2 class="title">About Us</h2>
         <div class="about__content__wrapper">
             <img class="about__img hidden" src="/images/me.jpg" alt="A photo of Jack" />
             <div class="about__content__text__wrapper">
@@ -8,12 +8,10 @@
                     Hi, I'm Jack <span class="waving__hand" aria-hidden="true">👋</span>
                 </p>
                 <p class="about__description" ref="aboutText">
-                    I'm a web developer based in the UK. I have a passion for creating
-                    beautiful, responsive websites that are both user-friendly and
-                    accessible. Whether you're looking for a simple landing page or a logo
-                    for your brand, I'm here to help. I have experience working with a
-                    range of industry standard tools and technologies enabling me to bring
-                    your ideas to life and strengthen your brand.
+                    Hi, I'm Jack the founder of Lemony, a web development agency based in Sheffield. I have been
+                    developing websites for over 5 years and have a passion for creating beautiful, responsive and
+                    user-friendly websites. I aim to provide a high-quality service to all my clients and help them
+                    achieve their online goals.
                 </p>
                 <h4 class="technologies__header" ref="aboutTech">Technologies</h4>
                 <div class="about__technologies" ref="technologies">
