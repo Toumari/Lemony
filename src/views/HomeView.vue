@@ -46,12 +46,6 @@ import Footer from '@/components/Footer.vue'
   padding: 0rem 0;
 }
 
-.hero {
-  background: url("@/assets/hero.mp4");
-  background-size: cover;
-  background-position: center;
-}
-
 html,
 body,
 section {
