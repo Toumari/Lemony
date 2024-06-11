@@ -78,6 +78,7 @@ const scrollToKeyFeatures = () => {
 .hero__wrapper {
     position: relative;
     overflow: hidden;
+
 }
 
 .learn__more {

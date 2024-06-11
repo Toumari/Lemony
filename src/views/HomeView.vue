@@ -20,9 +20,10 @@ import Footer from '@/components/Footer.vue'
   <main v-smooth-scroll>
     <div class="top-section">
 
-
-      <Header />
-      <Hero />
+      <div class="hero">
+        <Header />
+        <Hero />
+      </div>
       <KeyPoints />
       <!-- <About /> -->
 
@@ -44,6 +45,12 @@ import Footer from '@/components/Footer.vue'
 
   background-color: #fdfbf9;
   padding: 0rem 0;
+}
+
+.hero {
+  background: url("@/assets/hero.mp4");
+  background-size: cover;
+  background-position: center;
 }
 
 html,
