@@ -1,10 +1,14 @@
 <template>
-    <section class="container">
-        <h4 class="title">FAQ's</h4>
-        <div v-for="(item, index ) in data" :key="index">
-            <Accordian :title="item.title" :content="item.content" />
-        </div>
-    </section>
+    <div class="wrapper">
+
+
+        <section class="container">
+            <h4 class="title">FAQ's</h4>
+            <div v-for="(item, index ) in data" :key="index">
+                <Accordian :title="item.title" :content="item.content" />
+            </div>
+        </section>
+    </div>
 </template>
 
 <script setup>
@@ -42,4 +46,8 @@ const isActive = ref(false)
 
 </script>
 
-<style scoped></style>
+<style scoped>
+.wrapper {
+    background-color: #f5f5f5
+}
+</style>

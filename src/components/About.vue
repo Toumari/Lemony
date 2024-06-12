@@ -1,37 +1,41 @@
 <template>
-    <section class="about container section" id="about" role="region" aria-label="About Me Section" ref="about">
-        <h2 class="title">About Us</h2>
-        <div class="about__content__wrapper">
-            <img class="about__img hidden" src="/images/me.jpg" alt="A photo of Jack" />
-            <div class="about__content__text__wrapper">
-                <p class="about__description-header">
-                    Hi, I'm Jack <span class="waving__hand" aria-hidden="true">👋</span>
-                </p>
-                <p class="about__description" ref="aboutText">
-                    Hi, I'm Jack the founder of Lemony, a web development agency based in Sheffield. I have been
-                    developing websites for over 5 years and have a passion for creating beautiful, responsive and
-                    user-friendly websites. I aim to provide a high-quality service to all my clients and help them
-                    achieve their online goals.
-                </p>
-                <h4 class="technologies__header" ref="aboutTech">Technologies</h4>
-                <div class="about__technologies" ref="technologies">
-                    <span ref="skill" class="skill">JavaScript</span>
-                    <span ref="skill" class="skill">HTML</span>
-                    <span ref="skill" class="skill">CSS</span>
-                    <span ref="skill" class="skill">Vue.js</span>
-                    <span ref="skill" class="skill">SCSS</span>
-                    <span ref="skill" class="skill">Tailwind CSS</span>
-                    <span ref="skill" class="skill">Bootstrap</span>
-                    <span ref="skill" class="skill">Sass</span>
-                    <span ref="skill" class="skill">Git</span>
-                    <span ref="skill" class="skill">GitHub</span>
-                    <span ref="skill" class="skill">Figma</span>
-                    <span ref="skill" class="skill">Photoshop</span>
-                    <span ref="skill" class="skill">Node</span>
+    <div class="wrapper">
+
+
+        <section class="about container section" id="about" role="region" aria-label="About Me Section" ref="about">
+            <h2 class="title">About Us</h2>
+            <div class="about__content__wrapper">
+                <img class="about__img hidden" src="/images/me.jpg" alt="A photo of Jack" />
+                <div class="about__content__text__wrapper">
+                    <p class="about__description-header">
+                        Hi, I'm Jack <span class="waving__hand" aria-hidden="true">👋</span>
+                    </p>
+                    <p class="about__description" ref="aboutText">
+                        Hi, I'm Jack the founder of Lemony, a web development agency based in Sheffield. I have been
+                        developing websites for over 5 years and have a passion for creating beautiful, responsive and
+                        user-friendly websites. I aim to provide a high-quality service to all my clients and help them
+                        achieve their online goals.
+                    </p>
+                    <h4 class="technologies__header" ref="aboutTech">Technologies</h4>
+                    <div class="about__technologies" ref="technologies">
+                        <span ref="skill" class="skill">JavaScript</span>
+                        <span ref="skill" class="skill">HTML</span>
+                        <span ref="skill" class="skill">CSS</span>
+                        <span ref="skill" class="skill">Vue.js</span>
+                        <span ref="skill" class="skill">SCSS</span>
+                        <span ref="skill" class="skill">Tailwind CSS</span>
+                        <span ref="skill" class="skill">Bootstrap</span>
+                        <span ref="skill" class="skill">Sass</span>
+                        <span ref="skill" class="skill">Git</span>
+                        <span ref="skill" class="skill">GitHub</span>
+                        <span ref="skill" class="skill">Figma</span>
+                        <span ref="skill" class="skill">Photoshop</span>
+                        <span ref="skill" class="skill">Node</span>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 </template>
 
 <script setup>
@@ -80,6 +84,10 @@ onMounted(() => {
 </script>
 
 <style scoped>
+.wrapper {
+    background-color: #f5f5f5;
+}
+
 .about {
     z-index: 10;
     overflow: hidden;

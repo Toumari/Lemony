@@ -61,9 +61,7 @@ onMounted(() => {
 </script>
 
 <style scoped>
-.wrapper {
-    background-color: #f5f5f5;
-}
+.wrapper {}
 
 .projects {
     padding-top: 2rem;
