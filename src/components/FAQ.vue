@@ -4,8 +4,8 @@
 
         <section class="container">
             <h4 class="title">FAQ's</h4>
-            <div v-for="(item, index ) in data" :key="index">
-                <Accordian :title="item.title" :content="item.content" />
+            <div v-for="(item, index ) in data" :key="index" class="accordions">
+                <Accordian :title="item.title" :content="item.content" class="accordion" />
             </div>
         </section>
     </div>
@@ -49,5 +49,9 @@ const isActive = ref(false)
 <style scoped>
 .wrapper {
     background-color: #f5f5f5
+}
+
+.accordions:last-child .accordion-menu {
+    margin-bottom: 0;
 }
 </style>
