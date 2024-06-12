@@ -55,7 +55,6 @@ onMounted(() => {
             autoAlpha: 1,
             ease: "back.out(1)",
             stagger: 0.2,
-            scrub: 1,
         });
     });
 });
