@@ -81,7 +81,7 @@ onMounted(() => {
 }
 
 .project__title {
-    border-top: 1px solid #333;
+    border-top: 1px solid #4d4d4d;
     padding-top: 1rem;
     margin-top: 2rem;
     margin-bottom: 0rem;
@@ -146,7 +146,7 @@ img {
     }
 
     .project {
-        border-top: 2px solid #333;
+        border-top: 2px solid #4d4d4d;
         max-height: 400px;
         max-width: 400px;
         justify-self: start;

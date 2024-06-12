@@ -95,7 +95,7 @@ onMounted(() => {
 
 .card__yellow {
     background-color: #FFD913;
-    color: #3c3c3c
+    color: #4b4b4b
 }
 
 .card__dark {

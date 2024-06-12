@@ -6,9 +6,9 @@
             <h2 class="title">Why Chose Lemony?</h2>
             <div class="three-col">
                 <article class="key__article">
-                    <svg fill="#ffffff" height="75px" width="75px" version="1.1" id="Capa_1"
+                    <svg fill="#fafafa" height="75px" width="75px" version="1.1" id="Capa_1"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                        viewBox="0 0 325.592 325.592" xml:space="preserve" stroke="#ffffff">
+                        viewBox="0 0 325.592 325.592" xml:space="preserve" stroke="#fafafa">
                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                         <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                         <g id="SVGRepo_iconCarrier">
@@ -34,9 +34,9 @@
                     <p>We work closely with customers to ensure that your dream website is a reality.</p>
                 </article>
                 <article class="key__article">
-                    <svg fill="#ffffff" height="75px" width="75px" version="1.1" id="Capa_1"
+                    <svg fill="#fafafa" height="75px" width="75px" version="1.1" id="Capa_1"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                        viewBox="0 0 339.059 339.059" xml:space="preserve" stroke="#ffffff">
+                        viewBox="0 0 339.059 339.059" xml:space="preserve" stroke="#fafafa">
                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                         <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                         <g id="SVGRepo_iconCarrier">
@@ -49,9 +49,9 @@
                     <p>We'll make sure your website stands out amongst the competition with SEO optimisation.</p>
                 </article>
                 <article class="key__article">
-                    <svg fill="#ffffff" height="75px" width="75px" version="1.1" id="Capa_1"
+                    <svg fill="#fafafa" height="75px" width="75px" version="1.1" id="Capa_1"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                        viewBox="0 0 430.848 430.848" xml:space="preserve" stroke="#ffffff">
+                        viewBox="0 0 430.848 430.848" xml:space="preserve" stroke="#fafafa">
                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                         <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                         <g id="SVGRepo_iconCarrier">

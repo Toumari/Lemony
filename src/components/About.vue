@@ -87,7 +87,7 @@ onMounted(() => {
 
 .skill:hover {
     background-color: #ffeb3b;
-    color: #333;
+    color: #4d4d4d;
 }
 
 .waving__hand {
@@ -143,7 +143,7 @@ onMounted(() => {
 
 .about__description::selection {
     background-color: #ffe200;
-    color: #333;
+    color: #4d4d4d;
 }
 
 .technologies__header {

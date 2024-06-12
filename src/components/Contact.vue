@@ -39,7 +39,7 @@
     max-width: 25ch;
     margin-inline: auto;
 
-    color: #333;
+    color: #4d4d4d;
     letter-spacing: 0.2px;
     margin-bottom: 2rem
 }
@@ -74,7 +74,7 @@
     padding: 0.5rem 1.1rem;
     border-radius: 8px;
     font-weight: bold;
-    color: #333;
+    color: #4d4d4d;
     display: block;
     font-size: var(--fs-sm);
     margin-inline: auto;

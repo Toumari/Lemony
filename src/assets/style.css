@@ -4,56 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Prata&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  /* Colors */
-  /* Primary */
-  --clr-light: #dfe2ea;
-  --clr-white: #fff;
-  --clr-dark: #0d0d0b;
-  --clr-primary: #2a2428;
-  --clr-secondary: #dd1e26;
-  --clr-info: #1f6fb7;
-  --clr-success: #119665;
-  --clr-warning: #d4cb13;
-  --clr-danger: #de3907;
-  --clr-bg: #2D2E36;
-  --clr-text: #8D91A6;
-  --clr-btn: #465d9f;
-  --clr-card: #383A45;
-
-
-  /* sizes */
-  --size-xxs: 0.5rem;
-  --size-xs: 0.75rem;
-  --size-sm: 0.875rem;
-  --size-base: 1rem;
-  --size-lg: 1.125rem;
-  --size-xl: 1.25rem;
-  --size-2xl: 1.5rem;
-  --size-3xl: 1.875rem;
-  --size-4xl: 2.25rem;
-  --size-5xl: 3rem;
-  --size-6xl: 3.75rem;
-  --size-7xl: 4.5rem;
-  --size-8xl: 6rem;
-  --size-9xl: 8rem;
-  --size-10xl: 10rem;
-
-  /* Font sizes */
-  --fs-xxs: 0.5rem;
-  --fs-xs: 0.75rem;
-  --fs-sm: 0.875rem;
-  --fs-base: 1rem;
-  --fs-lg: 1.125rem;
-  --fs-xl: 1.25rem;
-  --fs-2xl: 1.5rem;
-  --fs-3xl: 1.875rem;
-  --fs-4xl: 2.25rem;
-  --fs-5xl: 3rem;
-  --fs-6xl: 3.75rem;
-  --fs-7xl: 4.5rem;
-  --fs-8xl: 6rem;
-  --fs-9xl: 8rem;
-  --fs-10xl: 10rem;
 }
 
 *,
@@ -80,8 +30,6 @@ body {
   min-height: 100vh;
   color: var(--clr-dark);
   background-color: ghostwhite;
-  color: #292616;
-  /* font-family: 'Satoshi', sans-serif; */
 }
 
 img,
