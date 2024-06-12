@@ -39,21 +39,21 @@ const isMenuOpen = ref(false)
 
 const scrollToAbout = () => {
     // Smooth scrolling behavior (optional):
-    document.querySelector('#about').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    document.querySelector('#about').scrollIntoView({ behavior: 'smooth' });
     isMenuOpen.value = false
     isMobile.value = false
 }
 
 const scrollToServices = () => {
     // Smooth scrolling behavior (optional):
-    document.querySelector('.services').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    document.querySelector('.services').scrollIntoView({ behavior: 'smooth' });
     isMenuOpen.value = false
     isMobile.value = false
 }
 
 const scrollToContact = () => {
     // Smooth scrolling behavior (optional):
-    document.querySelector('#contact').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
     isMenuOpen.value = false
     isMobile.value = false
 }
@@ -146,8 +146,10 @@ a {
     z-index: 997;
     width: 100%;
     height: 100%;
+    font-size: calc(1rem + 0.5vw);
+    font-weight: 900;
     scroll-behavior: no-scroll;
-    background-color: var(--clr-white);
+    background-color: #fafafa;
     color: var(--clr-dark);
     text-align: center;
     animation: slideIn 0.5s ease-in-out;
