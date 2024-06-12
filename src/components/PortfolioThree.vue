@@ -192,6 +192,7 @@ img {
     }
 
     .project__section__title {
+        text-align: left;
         grid-area: t;
         align-self: center;
         justify-self: start;
