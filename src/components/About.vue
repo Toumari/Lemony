@@ -162,7 +162,7 @@ onMounted(() => {
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
     font-size: var(--fs-sm);
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .technologies__header {

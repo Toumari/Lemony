@@ -67,6 +67,7 @@ onMounted(() => {
 
 .projects {
     padding-top: 2rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;

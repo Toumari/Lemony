@@ -69,10 +69,7 @@ onMounted(() => {
 }
 
 .services__title {
-    width: fit-content;
-    font-weight: 700;
     margin-bottom: 1rem;
-    font-size: var(--fs-xl);
 }
 
 .card {
@@ -95,7 +92,7 @@ onMounted(() => {
 
 .card__yellow {
     background-color: #FFD913;
-    color: #4b4b4b
+    color: #2d2d2d;
 }
 
 .card__dark {
@@ -107,19 +104,17 @@ onMounted(() => {
     font-size: calc(1.5rem + 0.5vw);
     line-height: 1.2;
     font-weight: 900;
-    margin-bottom: 0.75rem
+    margin-bottom: 0.5rem;
+    text-align: left;
 }
 
-.card__description {
-    font-size: calc(1rem + 0.1vw);
-    line-height: 1.25rem;
-}
 
 .card__description__grey {
-
-    margin-top: 1rem;
-    font-size: calc(1rem + 0.05vw);
+    font-size: calc(1rem + 0.25vw);
     font-weight: 500;
+    text-align: left;
+    border-bottom: 1px solid #847f7fb8;
+    padding-bottom: 1rem;
 }
 
 .list__header {
@@ -163,11 +158,12 @@ onMounted(() => {
     }
 
     .card__title {
-        font-size: calc(1.2rem + 0.5vw);
+        font-size: calc(1rem + 0.5vw);
+
     }
 
     .list__header {
-        font-size: calc(1rem + 0.3vw);
+        font-size: calc(0.9rem + 0.3vw);
     }
 
     .card {
