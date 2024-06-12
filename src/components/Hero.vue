@@ -102,12 +102,13 @@ const scrollToKeyFeatures = () => {
 
 .hero {
     text-align: center;
-    min-height: calc(10rem + 35vh);
+    min-height: calc(10rem + 45vh);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 2.5rem;
+    user-select: none;
 }
 
 .title__lemon {

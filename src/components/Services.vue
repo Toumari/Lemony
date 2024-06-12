@@ -111,7 +111,7 @@ onMounted(() => {
 }
 
 .card__description {
-    font-size: calc(1rem + 0.05vw);
+    font-size: calc(1rem + 0.1vw);
     line-height: 1.25rem;
 }
 
@@ -133,7 +133,7 @@ onMounted(() => {
 
 .list__item {
     list-style: circle;
-    font-size: calc(1rem + 0.01vw);
+    font-size: calc(1rem + 0.1vw);
     margin-block: 0.75rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid #847f7fb8;

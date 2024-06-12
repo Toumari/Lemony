@@ -73,7 +73,6 @@ onMounted(() => {
     justify-content: center;
     grid-template-columns: 1fr;
     align-items: center;
-
 }
 
 .title {
@@ -82,11 +81,16 @@ onMounted(() => {
 
 .project__title {
     border-top: 1px solid #4d4d4d;
-    padding-top: 1rem;
     margin-top: 2rem;
+    padding-top: 1rem;
     margin-bottom: 0rem;
     font-size: calc(1.25rem + 0.1vw);
 }
+
+.project:first-of-type .project__title {
+    margin-top: 0;
+}
+
 
 .project__description {
     margin-bottom: 1rem;
@@ -128,7 +132,7 @@ img {
     }
 
     .project__title {
-        padding-top: 0rem;
+        padding-top: 0.25rem;
     }
 
     img {
@@ -156,11 +160,11 @@ img {
     .project__title {
         font-size: 1.5rem;
         font-weight: 700;
-        margin-bottom: 0.25rem;
+        margin-bottom: 0.3rem;
     }
 
     .project__description {
-        font-size: 1.25rem;
+        font-size: calc(1rem + 0.1vw);
         margin-bottom: 0.25rem;
     }
 
@@ -182,6 +186,7 @@ img {
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
         column-gap: 2rem;
+        margin-bottom: 0;
         min-height: 0;
         min-width: 0;
         grid-template-areas:
