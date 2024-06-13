@@ -7,25 +7,31 @@
                     Projects.
                 </h2>
                 <article class="project" id="proj__1">
-                    <h3 class="project__title">Dominik Lorenzo</h3>
-                    <p class="project__description">
-                        A portfolio / biography site for a michelin star chef.
-                    </p>
-                    <img src="@/assets/dom.png" alt="" />
+                    <a href="https://venerable-ganache-ed2f4a.netlify.app/">
+                        <h3 class="project__title">Dominik Lorenzo</h3>
+                        <p class="project__description">
+                            A portfolio / biography site for a michelin star chef.
+                        </p>
+                        <img src="@/assets/dom.png" alt="" />
+                    </a>
                 </article>
                 <article class="project" id="proj__2">
-                    <h3 class="project__title">Personal Portfolio</h3>
-                    <p class="project__description">
-                        A personal portfolio site to showcase my work and skills.
-                    </p>
-                    <img src="@/assets/port3.png" alt="" />
+                    <a href="https://timely-empanada-1b6f1c.netlify.app/">
+                        <h3 class="project__title">Personal Portfolio</h3>
+                        <p class="project__description">
+                            A personal portfolio site to showcase my work and skills.
+                        </p>
+                        <img src="@/assets/port3.png" alt="" />
+                    </a>
                 </article>
                 <article class="project" id="proj__3">
-                    <h3 class="project__title">M.P. Marketing</h3>
-                    <p class="project__description">
-                        A marketing site for a local business in the UK.
-                    </p>
-                    <img src="@/assets/mp2.png" alt="" />
+                    <a href="https://fancy-queijadas-cd2178.netlify.app/">
+                        <h3 class="project__title">M.P. Marketing</h3>
+                        <p class="project__description">
+                            A marketing site for a local business in the UK.
+                        </p>
+                        <img src="@/assets/mp2.png" alt="" />
+                    </a>
                 </article>
             </div>
         </section>
