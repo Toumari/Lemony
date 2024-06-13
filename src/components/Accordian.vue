@@ -79,7 +79,7 @@ h4 {
     transform-origin: top;
     transition: height 0.1s linear;
     overflow: hidden;
-    font-size: 14px;
+    font-size: calc(0.9rem + 0.1vw);
 }
 
 p {
