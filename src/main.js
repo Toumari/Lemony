@@ -1,6 +1,4 @@
-import "./assets/satoshi.css";
 import "./assets/modern-normalize.css";
-import "./assets/main.css";
 
 import "./assets/style.css";
 import "./assets/utils.css";

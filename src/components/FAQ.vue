@@ -1,7 +1,5 @@
 <template>
     <div class="wrapper">
-
-
         <section class="container">
             <h4 class="title">FAQ's</h4>
             <div v-for="(item, index ) in data" :key="index" class="accordions">
@@ -37,13 +35,6 @@ const data = ref([
 ])
 
 import { ref } from 'vue'
-
-const toggleActive = () => {
-    isActive.value = !isActive.value
-}
-
-const isActive = ref(false)
-
 </script>
 
 <style scoped>

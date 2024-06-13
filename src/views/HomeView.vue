@@ -4,7 +4,6 @@ import Header from '@/components/Header.vue'
 import Hero from '@/components/Hero.vue'
 import About from '@/components/About.vue'
 import Services from '@/components/Services.vue'
-
 import KeyPoints from '@/components/KeyPoints.vue'
 import FAQ from '@/components/FAQ.vue'
 import PortfolioThree from '@/components/PortfolioThree.vue'
@@ -17,9 +16,8 @@ import Footer from '@/components/Footer.vue'
 </script>
 
 <template>
-  <main v-smooth-scroll>
+  <main>
     <div class="top-section">
-
       <div class="hero">
         <Header />
         <Hero />
@@ -27,8 +25,6 @@ import Footer from '@/components/Footer.vue'
       <KeyPoints />
       <Services />
       <About />
-
-      <!-- <Portfoliotwo /> -->
       <PortfolioThree />
       <FAQ />
       <Contact />

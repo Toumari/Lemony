@@ -156,12 +156,12 @@ const scrollToKeyFeatures = () => {
 /* md */
 @media (min-width: 768px) {
     .hero__title {
-        font-size: calc(2.6rem + 2.5vw);
+        font-size: calc(2rem + 2.5vw);
         max-width: 20ch;
     }
 
     .hero__description {
-        font-size: calc(1.4rem + 0.1vw);
+        font-size: calc(1.3rem + 0.1vw);
     }
 }
 
