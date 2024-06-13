@@ -158,13 +158,7 @@ onMounted(() => {
 /* md */
 @media (min-width: 768px) {
 
-    .card__yellow {
-        border-radius: 10% 1% 1% 1%;
-    }
 
-    .card__dark {
-        border-radius: 1% 1% 10% 1%;
-    }
 
     .services {
         justify-content: space-between;
@@ -197,12 +191,22 @@ onMounted(() => {
     .card {
         padding: 4rem;
     }
+
+
 }
 
 /* xl */
 @media (min-width: 1280px) {
     .card p {
         margin: 0;
+    }
+
+    .card__yellow {
+        border-radius: 10% 1% 1% 1%;
+    }
+
+    .card__dark {
+        border-radius: 1% 1% 10% 1%;
     }
 }
 </style>

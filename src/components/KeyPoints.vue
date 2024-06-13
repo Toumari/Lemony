@@ -128,6 +128,7 @@ article:last-of-type {
 }
 
 article {
+    position: relative;
     display: flex;
     flex-direction: column;
     min-height: 300px;
@@ -137,12 +138,17 @@ article {
     color: white;
     padding: 2rem;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+    z-index: 2;
 
     p {
         font-size: calc(1rem + 0.1vw);
         font-weight: 400;
     }
+}
+
+.three-col {
+    position: relative;
 }
 
 svg {
@@ -154,6 +160,7 @@ svg {
 @media (min-width: 768px) {
 
     .three-col {
+        position: relative;
         margin-top: 1rem;
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
