@@ -96,9 +96,8 @@ watch(isMobile, (newVal) => {
 
 .logo {
     font-size: 1.5rem;
-    font-weight: bolder;
+    font-weight: 900;
     color: var(--clr-dark);
-
     z-index: 999;
 }
 

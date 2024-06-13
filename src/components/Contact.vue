@@ -38,7 +38,6 @@
     line-height: 1.6;
     max-width: 25ch;
     margin-inline: auto;
-
     color: #4d4d4d;
     letter-spacing: 0.2px;
     margin-bottom: 2rem
@@ -90,19 +89,9 @@ form {
 }
 
 @media (min-width: 768px) {
-    .contact__title {
-        font-size: var(--fs-2xl);
-    }
 
     .contact__description {
-        font-size: var(--fs-base);
         max-width: 40ch;
-    }
-}
-
-@media (min-width: 1536px) {
-    .contact__description {
-        font-size: var(--fs-lg);
     }
 }
 </style>

@@ -77,7 +77,7 @@ onMounted(() => {
     padding: 2.5rem;
     margin-bottom: 2rem;
     text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
 }
 
@@ -152,13 +152,26 @@ onMounted(() => {
 
 /* md */
 @media (min-width: 768px) {
+
+    .card__yellow {
+        border-radius: 10% 1% 1% 1%;
+    }
+
+    .card__dark {
+        border-radius: 1% 1% 10% 1%;
+    }
+
     .services {
         justify-content: space-between;
         align-items: flex-start;
     }
 
+    .card__description__grey {
+        font-size: calc(0.75rem + 0.3vw);
+    }
+
     .card__title {
-        font-size: calc(1rem + 0.5vw);
+        font-size: calc(1.125rem + 0.3vw);
 
     }
 
@@ -177,7 +190,7 @@ onMounted(() => {
 /* lg */
 @media (min-width: 1024px) {
     .card {
-        padding: 2rem;
+        padding: 4rem;
     }
 }
 

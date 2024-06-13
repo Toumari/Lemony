@@ -184,7 +184,7 @@ img {
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
         column-gap: 2rem;
-        margin-bottom: 0;
+        margin-bottom: 2rem;
         min-height: 0;
         min-width: 0;
         grid-template-areas:

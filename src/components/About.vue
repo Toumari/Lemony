@@ -11,7 +11,7 @@
                         Hi, I'm Jack <span class="waving__hand" aria-hidden="true">👋</span>
                     </p>
                     <p class="about__description" ref="aboutText">
-                        Hi, I'm Jack the founder of Lemony, a web development agency based in Sheffield. I have been
+                        I'm the founder of Lemony, a web development agency based in Sheffield. I have been
                         developing websites for over 5 years and have a passion for creating beautiful, responsive and
                         user-friendly websites. I aim to provide a high-quality service to all my clients and help them
                         achieve their online goals.
@@ -118,13 +118,6 @@ onMounted(() => {
     }
 }
 
-.about__title {
-    width: fit-content;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    font-size: var(--fs-xl);
-}
-
 .about__img {
     border-radius: 8px;
     width: 100%;
@@ -134,7 +127,7 @@ onMounted(() => {
 }
 
 .about__description-header {
-    font-size: var(--fs-lg);
+    font-size: calc(1.25rem + 0.1vw);
     font-weight: 700;
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
@@ -181,9 +174,7 @@ onMounted(() => {
 
 /* sm */
 @media (min-width: 640px) {
-    .about__title {
-        font-size: var(--fs-2xl);
-    }
+
 
     .about__img {
         margin-bottom: 1.5rem;
@@ -198,10 +189,6 @@ onMounted(() => {
     .about__description {
         max-width: 70ch;
         flex: 1;
-    }
-
-    .about__description-header {
-        font-size: var(--fs-xl);
     }
 }
 

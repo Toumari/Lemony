@@ -69,6 +69,7 @@
                     <p>We provide free hosting, SSL protection and ongoing maintenance for customers.</p>
                 </article>
             </div>
+
         </section>
     </div>
 </template>
@@ -126,13 +127,15 @@ article:last-of-type {
 }
 
 article {
-    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
     text-align: center;
     margin-bottom: 2rem;
     background-color: #2e2e2e;
     color: white;
     padding: 2rem;
-    border-radius: 5px;
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 
     p {
@@ -144,6 +147,7 @@ article {
 svg {
     margin-inline: auto;
     margin-bottom: 1rem;
+    margin-top: 1.5rem;
 }
 
 @media (min-width: 768px) {
