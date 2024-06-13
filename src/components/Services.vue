@@ -82,7 +82,7 @@ onMounted(() => {
     padding: 2.5rem;
     margin-bottom: 2rem;
     text-align: center;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
     transition: all 0.3s ease;
 }
 
