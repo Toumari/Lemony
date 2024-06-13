@@ -5,16 +5,16 @@
         <section class="about container section" id="about" role="region" aria-label="About Me Section" ref="about">
             <h2 class="title">About Us</h2>
             <div class="about__content__wrapper">
-                <img class="about__img hidden" src="/images/me.jpg" alt="A photo of Jack" />
+                <img class="about__img hidden" src="@/assets/me2.jpg" alt="A photo of Jack" />
                 <div class="about__content__text__wrapper">
                     <p class="about__description-header">
                         Hi, I'm Jack <span class="waving__hand" aria-hidden="true">👋</span>
                     </p>
                     <p class="about__description" ref="aboutText">
-                        I'm the founder of Lemony, a web development agency based in Sheffield. I have been
-                        developing websites for over 5 years and have a passion for creating beautiful, responsive and
-                        user-friendly websites. I aim to provide a high-quality service to all my clients and help them
-                        achieve their online goals.
+                        I'm the founder of Lemony, a web design agency in Sheffield. My passion for web development
+                        fuels my mission to create stunning, user-friendly websites that transform your online presence.
+                        With more than 10 years of experience, I deliver high-quality services tailored to your business
+                        goals.
                     </p>
                     <h3 class="technologies__header" ref="aboutTech">Technologies</h3>
                     <div class="about__technologies" ref="technologies">

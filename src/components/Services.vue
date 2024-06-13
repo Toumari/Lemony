@@ -11,18 +11,18 @@
                     <h3 class="list__header">What you get:</h3>
                     <ul class="list" role="list">
                         <li role="listitem" class="list__item">A website tailored to your brand identity and target
-                            audience</li>
+                            audience.</li>
                         <li role="listitem" class="list__item">Fully responsive design, your website will look great on
                             any device!</li>
                         <li role="listitem" class="list__item">SEO optimisation, including on-page optimisation to
                             improve your
-                            website's ranking in search results</li>
+                            website's ranking in search results.</li>
                         <li role="listitem" class="list__item">Full source files, you own your website!</li>
                         <li role="listitem" class="list__item">Free SSL Encryption to protect your website and visitor
-                            information</li>
-                        <li role="listitem" class="list__item">Free website hosting</li>
+                            information.</li>
+                        <li role="listitem" class="list__item">Free website hosting.</li>
                         <li role="listitem" class="list__item">Free Domain name (subject to availability)</li>
-                        <li role="listitem" class="list__item">Post launch support and maintenance</li>
+                        <li role="listitem" class="list__item">Post launch support and maintenance.</li>
                     </ul>
                 </div>
                 <div class="card__dark card" role="listitem">
@@ -32,9 +32,9 @@
                     </p>
                     <h3 class="list__header">What you get:</h3>
                     <ul class="list" role="list">
-                        <li role="listitem" class="list__item">Professional logo designed by us</li>
-                        <li role="listitem" class="list__item">Unlimited revisions to design</li>
-                        <li role="listitem" class="list__item">High quality files to use for all media</li>
+                        <li role="listitem" class="list__item">Professional logo designed by us.</li>
+                        <li role="listitem" class="list__item">Unlimited revisions to design.</li>
+                        <li role="listitem" class="list__item">High quality files to use for all media.</li>
                         <li role="listitem" class="list__item">Future revisions (up to 12 months after completion date)
                         </li>
                     </ul>

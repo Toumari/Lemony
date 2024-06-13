@@ -66,8 +66,9 @@
                             </g>
                         </g>
                     </svg>
-                    <h3 class="article__title">Continual Support</h3>
-                    <p>We provide free hosting, SSL protection and ongoing maintenance for customers.</p>
+                    <h3 class="article__title">Free Hosting, Security & Ongoing Care</h3>
+                    <p>
+                        We provide free hosting, SSL protection and ongoing maintenance for customers.</p>
                 </article>
             </div>
 
