@@ -46,7 +46,8 @@
                         </g>
                     </svg>
                     <h3 class="article__title">SEO Champions</h3>
-                    <p>We'll make sure your website stands out amongst the competition with SEO optimisation.</p>
+                    <p>We'll make sure your website stands out amongst the competition with search engine optimisation
+                        (SEO)</p>
                 </article>
                 <article class="key__article">
                     <svg fill="#fafafa" height="75px" width="75px" version="1.1" id="Capa_1"
