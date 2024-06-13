@@ -1,5 +1,5 @@
 <template>
-    <div class="wrapper">
+    <div class="wrapper" id="main">
 
 
         <section class="container key__features" id="keyfeatures">
@@ -30,7 +30,7 @@
                             </g>
                         </g>
                     </svg>
-                    <h4 class="article__title">Tailored Designs</h4>
+                    <h3 class="article__title">Tailored Designs</h3>
                     <p>We work closely with customers to ensure that your dream website is a reality.</p>
                 </article>
                 <article class="key__article">
@@ -45,7 +45,7 @@
                             </path>
                         </g>
                     </svg>
-                    <h4 class="article__title">SEO Champions</h4>
+                    <h3 class="article__title">SEO Champions</h3>
                     <p>We'll make sure your website stands out amongst the competition with SEO optimisation.</p>
                 </article>
                 <article class="key__article">
@@ -65,7 +65,7 @@
                             </g>
                         </g>
                     </svg>
-                    <h4 class="article__title">Continual Support</h4>
+                    <h3 class="article__title">Continual Support</h3>
                     <p>We provide free hosting, SSL protection and ongoing maintenance for customers.</p>
                 </article>
             </div>

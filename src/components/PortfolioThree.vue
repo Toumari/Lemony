@@ -7,21 +7,21 @@
                     Projects.
                 </h2>
                 <article class="project" id="proj__1">
-                    <h4 class="project__title">Dominik Lorenzo</h4>
+                    <h3 class="project__title">Dominik Lorenzo</h3>
                     <p class="project__description">
                         A portfolio / biography site for a michelin star chef.
                     </p>
                     <img src="@/assets/dom.png" alt="" />
                 </article>
                 <article class="project" id="proj__2">
-                    <h4 class="project__title">Personal Portfolio</h4>
+                    <h3 class="project__title">Personal Portfolio</h3>
                     <p class="project__description">
                         A personal portfolio site to showcase my work and skills.
                     </p>
                     <img src="@/assets/port3.png" alt="" />
                 </article>
                 <article class="project" id="proj__3">
-                    <h4 class="project__title">M.P. Marketing</h4>
+                    <h3 class="project__title">M.P. Marketing</h3>
                     <p class="project__description">
                         A marketing site for a local business in the UK.
                     </p>

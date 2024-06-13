@@ -16,7 +16,7 @@
                         user-friendly websites. I aim to provide a high-quality service to all my clients and help them
                         achieve their online goals.
                     </p>
-                    <h4 class="technologies__header" ref="aboutTech">Technologies</h4>
+                    <h3 class="technologies__header" ref="aboutTech">Technologies</h3>
                     <div class="about__technologies" ref="technologies">
                         <span ref="skill" class="skill">JavaScript</span>
                         <span ref="skill" class="skill">HTML</span>

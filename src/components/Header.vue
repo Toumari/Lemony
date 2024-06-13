@@ -2,26 +2,27 @@
     <header class="header container" :class="{ hidden: !isMobile }" role="banner">
         <p class="logo">Lemony</p>
         <ul class="header__menu" role="menu">
-            <li><a :href="'#about'" @click.prevent="scrollToAbout" role="menuitem">About</a></li>
-            <li><a :href="'#services'" @click.prevent="scrollToServices" role="menuitem">Services</a></li>
-            <li><a :href="'#contact'" @click.prevent="scrollToContact" role="menuitem">Contact</a></li>
+            <li role="menuitem"><a :href="'#about'" @click.prevent="scrollToAbout">About</a></li>
+            <li role="menuitem"><a :href="'#services'" @click.prevent="scrollToServices">Services</a></li>
+            <li role="menuitem"><a :href="'#contact'" @click.prevent="scrollToContact">Contact</a></li>
         </ul>
         <button aria-label="Toggle Mobile Navigation" class="header__bars" id="header__bars" @click="toggleNav"
             aria-expanded="false" aria-controls="mobile-nav">
             {{ isMobile ? 'X' : '☰' }}
         </button>
+        <a href="#main" class="skip-link">Skip to Main Content</a>
     </header>
     <div v-if="isMenuOpen" class="mobile-nav" :class="{ hidden: !isMobile }" role="navigation" id="mobile-nav">
         <nav>
             <ul class="mobile-nav__menu" role="menu">
-                <li class="mobile__nav-link" role="none">
+                <li class="mobile__nav-link" role="menuitem">
                     <a :href="'#about'" @click.prevent="scrollToAbout" role="menuitem" class="mobile-link">About</a>
                 </li>
-                <li class="mobile__nav-link" role="none">
+                <li class="mobile__nav-link" role="menuitem">
                     <a :href="'#services'" @click.prevent="scrollToServices" role="menuitem"
                         class="mobile-link">Services</a>
                 </li>
-                <li class="mobile__nav-link" role="none">
+                <li class="mobile__nav-link" role="menuitem">
                     <a :href="'#contact'" @click.prevent="scrollToContact" role="menuitem"
                         class="mobile-link">Contact</a>
                 </li>
@@ -76,6 +77,17 @@ watch(isMobile, (newVal) => {
 
 <style scoped>
 /* Header */
+
+.skip-link {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+}
 
 .header {
 
