@@ -10,7 +10,7 @@
                     <a href="https://venerable-ganache-ed2f4a.netlify.app/">
                         <h3 class="project__title">Dominik Lorenzo</h3>
                         <p class="project__description">
-                            A portfolio / biography site for a michelin star chef.
+                            A portfolio site for a michelin star chef.
                         </p>
                         <img src="@/assets/dom.png" alt="" />
                     </a>
