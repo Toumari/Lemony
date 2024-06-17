@@ -9,8 +9,18 @@ import FAQ from '@/components/FAQ.vue'
 import PortfolioThree from '@/components/PortfolioThree.vue'
 import Contact from '@/components/Contact.vue'
 import Footer from '@/components/Footer.vue'
+import Lenis from 'lenis'
+
+const lenis = new Lenis()
 
 
+
+function raf(time) {
+  lenis.raf(time)
+  requestAnimationFrame(raf)
+}
+
+requestAnimationFrame(raf)
 
 
 </script>
@@ -22,25 +32,52 @@ import Footer from '@/components/Footer.vue'
         <Header />
         <Hero />
       </div>
-      <KeyPoints />
-      <Services />
-      <About />
-      <PortfolioThree />
-      <FAQ />
-      <Contact />
-
-      <Footer />
     </div>
+    <KeyPoints />
+    <Services />
+    <About />
+    <PortfolioThree />
+    <FAQ />
+    <Contact />
+
+    <Footer />
+
   </main>
 
 </template>
 
 <style scoped>
-.top-section {
-
-  background-color: #fdfbf9;
-  padding: 0rem 0;
+html.lenis,
+html.lenis body {
+  height: auto;
 }
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+.top-section {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+
+
+
 
 html,
 body,
