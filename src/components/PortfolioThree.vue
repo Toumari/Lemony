@@ -7,12 +7,12 @@
                     Projects.
                 </h2>
                 <article class="project" id="proj__1">
-                    <a href="https://venerable-ganache-ed2f4a.netlify.app/">
-                        <h3 class="project__title">Dominik Lorenzo</h3>
+                    <a href="https://tubular-moxie-46f1e2.netlify.app/">
+                        <h3 class="project__title">Bourne</h3>
                         <p class="project__description">
-                            A portfolio site for a michelin star chef.
+                            A travel website for a fictional travel agency.
                         </p>
-                        <img src="@/assets/dom.png" alt="" />
+                        <img src="@/assets/bourne2.png" alt="" />
                     </a>
                 </article>
                 <article class="project" id="proj__2">
@@ -28,7 +28,7 @@
                     <a href="https://fancy-queijadas-cd2178.netlify.app/">
                         <h3 class="project__title">M.P. Marketing</h3>
                         <p class="project__description">
-                            A marketing site for a local business in the UK.
+                            A marketing site for a fictional marketing agency.
                         </p>
                         <img src="@/assets/mp2.png" alt="" />
                     </a>
